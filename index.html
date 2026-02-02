@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon.com</title>
+</head>
+<body>
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="nav-logo border">
+                    <a href="#"><img src="images/amazon-logo.png" class="logo"></a>
+                </div>
+                <div class="nav-address border">             
+                    <a href="#" class="add-ancher">
+                        <div class="add-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <span class="add1">Deliver to</span>
+                            <span class="add2">India</span>  
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <form action="/action.php" class="nav-searchbar-form">
+                    <div class="nav-search-left">
+                        <div class="nav-select-facade">
+                            <span class="nav-search-lable">All</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <select name="Search-Dropdown" class="nav-search-select">
+                            <option value="All Department">All Department</option>
+                            <option value="Art & Craft">Art & Craft</option>
+                            <option value="Automatic">Automatic</option>
+                            <option value="Baby">Baby</option>
+                            <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+                            <option value="Books">Books</option>
+                            <option value="Boy's Care">Boy's Care</option>
+                            <option value="Computer">Computer</option>
+                            <option value="Deals">Deals</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="Girl's Fashion">Girl's Fashion</option>
+                            <option value="Health & Household">Health & Household</option>
+                            <option value="Home & Kitchen">Home & Kitchen</option>
+                            <option value="Industrial & Scientific">Industrial & Scientific</option>
+                            <option value="Kindle Store">Kindle Store</option>
+                            <option value="Luggage">Luggage</option>
+                            <option value="Men's Fashion">Men's Fashion</option>
+                            <option value="Movies & TV">Movies & TV</option>
+                            <option value="Music, CDs & Vinyl">Music, CDs & Vinyl</option>   
+                        </select>
+                    </div>
+                    <div class="nav-fill">
+                        <input placeholder="Search Amazon" class="nav-searchbar">
+                    </div>
+                    <div class="nav-search-right">
+                        <div class="nav-search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input class="nav-search-submit-button" type="submit" value="GO">
+                    </div>
+                </form>
+            </div>
+            <div class="nav-accounts-div border">
+                <a href="#" class="acc-retn-ancher">
+                    <div>
+                        <span class="acc-retn1">Hello, sign in</span>
+                    </div>
+                    <div>
+                        <span class="acc-retn2">Account & Lists</span>
+                        <i class="fa-solid fa-caret-down" id="acc2-icon"></i>
+                    </div>
+
+                </a>
+            </div>
+            <div class="nav-returns-div border">
+                <a href="#" class="acc-retn-ancher">
+                    <div>
+                        <span class="acc-retn1">Returns</span>
+                    </div>
+                    <div>
+                        <span class="acc-retn2">& Orders</span>
+                    </div>
+                </a>
+            </div>
+            <div class="nav-cart-div border">
+                <a href="#" class="cart-ancher">
+                    <div>
+                        <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                        <span class="cart2">Cart</span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+
+
+        <div class="pannel">
+            <div class="Allmenu">
+                <a href="#" class="pannel-ancher">
+                    <div>
+                        <i class="fa-solid fa-bars" id="menu-icon"></i>
+                    </div>
+                    <span class="pannel-all">All</span>
+                </a>
+            </div>
+            <div class="pannel-opt">
+                <div class="pannel-a">
+                    <a href="#" class="pannel-ancher">
+                        Today's Deals
+                    </a>
+                </div>
+                <div class="pannel-a">
+                    <a href="#" class="pannel-ancher">
+                        Prime Video
+                    </a>
+                </div>
+                <div class="pannel-a">
+                    <a href="#" class="pannel-ancher">
+                        Registry
+                    </a>
+                </div>
+                <div class="pannel-a">
+                    <a href="#" class="pannel-ancher">
+                        Gift Cards
+                    </a>
+                </div>
+                <div class="pannel-a">
+                    <a href="#" class="pannel-ancher">
+                        Customer Service
+                    </a>
+                </div>
+                <div class="pannel-a">
+                    <a href="#" class="pannel-ancher">
+                        Sell
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero-section">
+            <div class="hero-buttons">
+                <button type="button"class="main-bg-button-L">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button type="button" class="main-bg-button-R">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="hero-section-div1">
+                You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a>
+            </div>
+            
+        </section>
+        <!-- ================= PRODUCT GRID ================= -->
+        <section class="shop-section">
+                <div class="shop-row1">
+                    <div class="row1-box" id="row1-box1">
+                        <p class="shop-section-heading">Get your game on</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes" id="row1-box1-innerbox">
+                                <div class="row1-innerboxes-bigboxes" id="row1-box1-innerbox-box" style="background-image: url('images/r1-b1-1.jpg');"></div>
+                            </div>
+                        </div>
+                        <a>Shop gaming</a>
+                    </div>
+                    <div class="row1-box" id="row1-box2">
+                        <p class="shop-section-heading">Shop for your home essentials</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b2-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b2-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Cleaning Tools</div>
+                                <div class="row1-innerboxes-smallboxes">Home Storage</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b2-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b2-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Home Decor</div>
+                                <div class="row1-innerboxes-smallboxes">Bedding</div>
+                            </div>
+                        </div>
+                        <a>Discover more in Home</a>
+                    </div>
+                    <div class="row1-box" id="row1-box3">
+                        <p class="shop-section-heading">Shop Fashion for less</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b3-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b3-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Jeans under $50</div>
+                                <div class="row1-innerboxes-smallboxes">Tops under $25</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b3-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b3-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Dresses under $30</div>
+                                <div class="row1-innerboxes-smallboxes">Shoes under $50</div>
+                            </div>
+                        </div>
+                        <a>See all deals</a>
+                    </div>
+                    <div class="row1-box" id="row1-box4">
+                        <p class="shop-section-heading">New home arrivals under $50</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b4-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b4-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Kitchen & Dinning</div>
+                                <div class="row1-innerboxes-smallboxes">Home Improvement</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b4-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r1-b4-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Decor</div>
+                                <div class="row1-innerboxes-smallboxes">Bedding & Bath</div>
+                            </div>
+                        </div>
+                        <a>Shop the latest from home</a>
+                    </div>
+                </div>
+                <div class="shop-row2">
+                    <div class="row1-box" id="row2-box1">
+                        <p class="shop-section-heading">Have more fun with family</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b1-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b1-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Outdoor Play Sets</div>
+                                <div class="row1-innerboxes-smallboxes">Learning Toys</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b1-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b1-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Action figures</div>
+                                <div class="row1-innerboxes-smallboxes">Pretend Play Toy</div>
+                            </div>
+                        </div>
+                        <a>See more</a>
+                    </div>
+                    <div class="row1-box" id="row2-box2">
+                        <p class="shop-section-heading">Gear up to get fit</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b2-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b2-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Clothing</div>
+                                <div class="row1-innerboxes-smallboxes">Trackers</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b2-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b2-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Equipment</div>
+                                <div class="row1-innerboxes-smallboxes">Deals</div>
+                            </div>
+                        </div>
+                        <a>Discover more</a>
+                    </div>
+                    <div class="row1-box" id="row2-box3">
+                        <p class="shop-section-heading">Most-loved travel essentials</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b3-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b3-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Backpacks</div>
+                                <div class="row1-innerboxes-smallboxes">Suitcases</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b3-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b3-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Accessories</div>
+                                <div class="row1-innerboxes-smallboxes">Handbags</div>
+                            </div>
+                        </div>
+                        <a>Discover more</a>
+                    </div>
+                    <div class="row1-box" id="row2-box4">
+                        <p class="shop-section-heading">Gaming Mercendise</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b4-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b4-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Apparel</div>
+                                <div class="row1-innerboxes-smallboxes">Hats</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b4-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r2-b4-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Action figures</div>
+                                <div class="row1-innerboxes-smallboxes">Mugs</div>
+                            </div>
+                        </div>
+                        <a>See more</a>
+                    </div>
+                </div>
+                <!-- ================= FULL ROW GRID ================= -->
+                <div class="shop-row2">
+                    <div class="row3-box" id="row3-box1">
+                        <span class="shop-section-heading">Best Sellers in Books</span>
+                        <div class="row3-innerbox">
+                            <div class="row3-buttons">
+                                <button type="button"class="row3-button-L">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </button>
+                                <button type="button" class="row3-button-R">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r3-1.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r3-2.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r3-3.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r3-4.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r3-5.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r3-6.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r3-7.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r3-8.jpg');"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-row2">
+                    <div class="row3-box" id="row3-box1">
+                        <span class="shop-section-heading">Best Sellers in Clothing, Shoes & Jewelry</span>
+                        <div class="row3-innerbox">
+                            <div class="row3-buttons">
+                                <button type="button"class="row3-button-L">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </button>
+                                <button type="button" class="row3-button-R">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r4-1.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r4-2.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r4-3.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r4-4.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r4-5.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r4-6.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r4-7.jpg');"></div>
+                            <div class="row3-innerbox-boxes" style="background-image: url('images/r4-8.jpg');"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="shop-row2">
+                    <div class="row1-box" id="row2-box1">
+                        <p class="shop-section-heading">Level up your PC here</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b1-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b1-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Laptops</div>
+                                <div class="row1-innerboxes-smallboxes">PCs</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b1-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b1-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Hard Drives</div>
+                                <div class="row1-innerboxes-smallboxes">Monitors</div>
+                            </div>
+                        </div>
+                        <a>Discover more</a>
+                    </div>
+                    <div class="row1-box" id="row2-box2">
+                        <p class="shop-section-heading">Level up your gaming</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b2-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b2-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">PC Gaming</div>
+                                <div class="row1-innerboxes-smallboxes">xbox</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b2-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b2-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">PlayStation</div>
+                                <div class="row1-innerboxes-smallboxes">Nintendo Switch</div>
+                            </div>
+                        </div>
+                        <a>Shop the latest in gaming</a>
+                    </div>
+                    <div class="row1-box" id="row2-box3">
+                        <p class="shop-section-heading">Explore more in Sports</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b3-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b3-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Cycling</div>
+                                <div class="row1-innerboxes-smallboxes">Running</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b3-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b3-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Exercise & Fitness</div>
+                                <div class="row1-innerboxes-smallboxes">Golf</div>
+                            </div>
+                        </div>
+                        <a>Explore more</a>
+                    </div>
+                    <div class="row1-box" id="row2-box4">
+                        <p class="shop-section-heading">Most-loved watches</p>
+                        <div class="row1-main-box">
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b4-1.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b4-2.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Women</div>
+                                <div class="row1-innerboxes-smallboxes">Men</div>
+                            </div>
+                            <div class="row1-innerboxes">
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b4-3.jpg');"></div>
+                                <div class="row1-innerboxes-bigboxes" style="background-image: url('images/r5-b4-4.jpg');"></div>
+                                <div class="row1-innerboxes-smallboxes">Girls</div>
+                                <div class="row1-innerboxes-smallboxes">Boys</div>
+                            </div>
+                        </div>
+                        <a>Discover more</a>
+                    </div>
+                </div>
+        </section>
+        <!-- ================= RHF FRAME ================= -->
+        <div class="rhf-frame">
+           <div class="rhf-border">
+                <div class="rhf-header">
+                    Your recently viewed items and featured recommendations.
+                </div>
+                <div class="rhf-container">
+                    <span>
+                        After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+                    </span>
+                    <div class="rhf-edit">
+                        <a href="#">
+                            View or edit your browsing history.
+                        </a>
+                    </div>
+                </div>
+           </div> 
+        </div>
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <button class="button-BacktoTop">
+            <div class="BacktoTop">
+                Back to Top
+            </div>
+        </button>
+        <!-- ================= FOOTER CONTENT ================= -->
+        <div class="footer-content">
+            <div class="footer-cont-heading">
+                Get to Know Us
+            </div>
+            
+            <a href="#" class="footer-content-a">Careers</a>
+            <br>
+            <a href="#" class="footer-content-a">Blog</a>
+            <br>
+            <a href="#" class="footer-content-a">About Amazon</a>
+            <br>
+            <a href="#" class="footer-content-a">Investor Relations</a>
+            <br>
+            <a href="#" class="footer-content-a">Amazon Devices</a>
+            <br>
+            <a href="#" class="footer-content-a">Amazon Science</a>
+            <br>
+        </div>
+        <div class="footer-blank"></div>
+        <div class="footer-content">
+            <div class="footer-cont-heading">
+                Make Money with Us
+            </div>
+            
+            <a href="#" class="footer-content-a">Sell products on Amazon</a>
+            <br>
+            <a href="#" class="footer-content-a">Sell on Amazon Business</a>
+            <br>
+            <a href="#" class="footer-content-a">Sell apps on Amazon</a>
+            <br>
+            <a href="#" class="footer-content-a">Become an Affiliate</a>
+            <br>
+            <a href="#" class="footer-content-a">Advertise Your Products</a>
+            <br>
+            <a href="#" class="footer-content-a">Self-Publish with Us</a>
+            <br>
+            <a href="#" class="footer-content-a">Host an Amazon Hub</a>
+            <br>
+            <a href="#" class="footer-content-a">› See More Make Money with Us</a>
+            <br>
+        </div>
+        <div class="footer-blank"></div>
+        <div class="footer-content">
+            <div class="footer-cont-heading">
+                Amazon Payment Products
+            </div>
+            
+            <a href="#" class="footer-content-a">Amazon Business Card</a>
+            <br>
+            <a href="#" class="footer-content-a">Shop with Points</a>
+            <br>
+            <a href="#" class="footer-content-a">Reload your Balance</a>
+            <br>
+            <a href="#" class="footer-content-a">Amazon Curerncy Converter</a>
+            <br>
+        </div>
+        <div class="footer-blank"></div>
+        <div class="footer-content">
+            <div class="footer-cont-heading">
+                Let Us Help You
+            </div>
+
+            <a href="#" class="footer-content-a">Amazon & COVID-19</a>
+            <br>
+            <a href="#" class="footer-content-a">Your Account</a>
+            <br>
+            <a href="#" class="footer-content-a">Your Orders</a>
+            <br>
+            <a href="#" class="footer-content-a">Shipping Rares & Policies</a>
+            <br>
+            <a href="#" class="footer-content-a">Return & replacement</a>
+            <br>
+            <a href="#" class="footer-content-a">Manage Your Content & Device</a>
+            <br>
+            <a href="#" class="footer-content-a">Help</a>
+            <br>
+        </div>
+
+        <div class="footer-baseline-link">
+            <div class="footer-baseline-logo">
+                <a href="#"><img src="images/amazon-logo.png" class="footer-baseline-logo"></a>
+            </div>
+            <div class="baseline-linkboxes">
+                <div class="baseline-links">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    English
+                </div>
+                <div class="baseline-links">
+                    ₹ INR - Indian Rupee 
+                </div>
+                <div class="baseline-links">
+                    United States
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
