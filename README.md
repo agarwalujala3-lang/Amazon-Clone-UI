@@ -47,15 +47,15 @@ The goal was not just design imitation but writing clean, scalable, and maintain
  
 ## 🗂️ Project Structure
 
-📦 amazon-clone/
-|- 📜 index.html
-|- 📜 style.css
-|- 📁 images/
-        |- amazon-logo.png
-        |- hero-section-bg.jpg
-        |- r1-b1-1.jpg
-        |- ...
-|- 📜 README.md
+📦 amazon-clone
+┣ 📜 index.html
+┣ 📜 style.css
+┣ 📁 images
+┃ ┣ 🖼️ amazon-logo.png
+┃ ┣ 🖼️ hero-section-bg.jpg
+┃ ┣ 🖼️ r1-b1.jpg
+┃ ┗ 🖼️ ...
+┗ 📜 README.md
 
 ## 🧩 Core Concepts Implemented
 
