@@ -58,15 +58,18 @@ Rather than focusing only on visual similarity, the project emphasizes clean cod
 
 ## 🗂️ Project Structure
 
- amazon-clone
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┣ 📁 images
- ┃ ┣  amazon-logo.png
- ┃ ┣  hero-section-bg.jpg
- ┃ ┣  r1-b1.jpg
- ┃ ┗  ...
- ┗ 📜 README.md
+```text
+amazon-clone/
+│
+├── index.html
+├── style.css
+├── images/
+│   ├── amazon-logo.png
+│   ├── hero-section-bg.jpg
+│   ├── r1-b1.jpg
+│   └── ...
+└── README.md
+
 
  
 ## 🧩 Core Concepts Implemented
