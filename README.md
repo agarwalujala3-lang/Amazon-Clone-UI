@@ -69,8 +69,7 @@ amazon-clone/
 │   ├── r1-b1.jpg
 │   └── ...
 └── README.md
-
-
+```
  
 ## 🧩 Core Concepts Implemented
 
