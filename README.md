@@ -59,14 +59,14 @@ Rather than focusing only on visual similarity, the project emphasizes clean cod
 ## 🗂️ Project Structure
 
 📦 amazon-clone
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┣ 📁 images
- ┃ ┣ 🖼️ amazon-logo.png
- ┃ ┣ 🖼️ hero-section-bg.jpg
- ┃ ┣ 🖼️ r1-b1.jpg
- ┃ ┗ 🖼️ ...
- ┗ 📜 README.md
+┣ 📜 index.html
+┣ 📜 style.css
+┣ 📁 images
+┃ ┣ 🖼️ amazon-logo.png
+┃ ┣ 🖼️ hero-section-bg.jpg
+┃ ┣ 🖼️ r1-b1.jpg
+┃ ┗ 🖼️ ...
+┗ 📜 README.md
 
 
 ## 🧩 Core Concepts Implemented
@@ -142,4 +142,3 @@ LinkedIn: https://linkedin.com/in/ujala-agarwal-30aa28283
 ## ⭐ Support
 
 If you found this project helpful, consider giving it a ⭐ on GitHub!
-Your support motivates continuous learning and improvement.
